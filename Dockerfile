@@ -6,7 +6,9 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN set -x \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
-       texlive-full biber \
+       texlive-base texlive-binaries texlive-extra-utils texlive-bibtex-extra \
+	   texlive-lang-german texlive-latex-recommended texlive-fonts-recommended \
+	   texlive-latex-extra texlive-latex-base texlive-generic-extra biber \
     && apt-get autoremove -y \
     && apt-get autoclean \
     && apt-get clean \
