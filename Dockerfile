@@ -9,7 +9,7 @@ RUN set -x \
        texlive-base texlive-binaries texlive-extra-utils texlive-bibtex-extra \
 	   texlive-lang-german texlive-latex-recommended texlive-fonts-recommended \
 	   texlive-latex-extra texlive-latex-base texlive-generic-extra biber \
-	   make \
+	   make git-core \
     && apt-get autoremove -y \
     && apt-get autoclean \
     && apt-get clean \
