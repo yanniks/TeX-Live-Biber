@@ -1,3 +1,3 @@
-# TeX Live 2017 with Biber
+# TeX Live 2018 with Biber
 
-This image contains TeX Live 2017 and Biber running on Debian Buster.
+This image contains TeX Live 2018 and Biber running on Debian Buster.
